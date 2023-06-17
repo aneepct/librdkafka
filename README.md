@@ -1,10 +1,6 @@
 librdkafka - the Apache Kafka C/C++ client library
 ==================================================
 
-Copyright (c) 2012-2020, [Magnus Edenhill](http://www.edenhill.se/).
-
-[https://github.com/edenhill/librdkafka](https://github.com/edenhill/librdkafka)
-
 **librdkafka** is a C library implementation of the
 [Apache Kafka](https://kafka.apache.org/) protocol, providing Producer, Consumer
 and Admin clients. It was designed with message delivery reliability
@@ -25,8 +21,8 @@ affiliation with and is not endorsed by The Apache Software Foundation.
   * Simple (legacy) consumer
   * Admin client
   * Compression: snappy, gzip, lz4, zstd
-  * [SSL](https://github.com/edenhill/librdkafka/wiki/Using-SSL-with-librdkafka) support
-  * [SASL](https://github.com/edenhill/librdkafka/wiki/Using-SASL-with-librdkafka) (GSSAPI/Kerberos/SSPI, PLAIN, SCRAM, OAUTHBEARER) support
+  * [SSL](https://github.com/aneepct/librdkafka/wiki/Using-SSL-with-librdkafka) support
+  * [SASL](https://github.com/aneepct/librdkafka/wiki/Using-SASL-with-librdkafka) (GSSAPI/Kerberos/SSPI, PLAIN, SCRAM, OAUTHBEARER) support
   * Full list of [supported KIPs](INTRODUCTION.md#supported-kips)
   * Broker version support: >=0.8 (see [Broker version compatibility](INTRODUCTION.md#broker-version-compatibility))
   * Guaranteed API stability for C & C++ APIs (ABI safety guaranteed for C)
@@ -39,14 +35,14 @@ affiliation with and is not endorsed by The Apache Software Foundation.
 # Documentation
 
  * Public API in [C header](src/rdkafka.h) and [C++ header](src-cpp/rdkafkacpp.h).
- * Introduction and manual in [INTRODUCTION.md](https://github.com/edenhill/librdkafka/blob/master/INTRODUCTION.md).
+ * Introduction and manual in [INTRODUCTION.md](https://github.com/aneepct/librdkafka/blob/master/INTRODUCTION.md).
  * Configuration properties in
-[CONFIGURATION.md](https://github.com/edenhill/librdkafka/blob/master/CONFIGURATION.md).
- * Statistics metrics in [STATISTICS.md](https://github.com/edenhill/librdkafka/blob/master/STATISTICS.md).
- * [Frequently asked questions](https://github.com/edenhill/librdkafka/wiki).
+[CONFIGURATION.md](https://github.com/aneepct/librdkafka/blob/master/CONFIGURATION.md).
+ * Statistics metrics in [STATISTICS.md](https://github.com/aneepct/librdkafka/blob/master/STATISTICS.md).
+ * [Frequently asked questions](https://github.com/aneepct/librdkafka/wiki).
  * Step-by-step tutorial [Getting Started with Apache Kafka and C/C++](https://developer.confluent.io/get-started/c/).
 
-**NOTE**: The `master` branch is actively developed, use latest [release](https://github.com/edenhill/librdkafka/releases) for production use.
+**NOTE**: The `master` branch is actively developed, use latest [release](https://github.com/aneepct/librdkafka/releases) for production use.
 
 
 # Installation
@@ -159,11 +155,11 @@ Commercial support is available from [Confluent Inc](https://www.confluent.io/)
 
 ## Community support
 
-**Only the [latest official release](https://github.com/edenhill/librdkafka/releases) is supported for community members.**
+**Only the [latest official release](https://github.com/aneepct/librdkafka/releases) is supported for community members.**
 
-File bug reports and feature requests using [GitHub Issues](https://github.com/edenhill/librdkafka/issues).
+File bug reports and feature requests using [GitHub Issues](https://github.com/aneepct/librdkafka/issues).
 
-Questions and discussions are welcome on the [Discussions](https://github.com/edenhill/librdkafka/discussions) forum, and on the [Confluent Community slack](https://launchpass.com/confluentcommunity) #clients channel.
+Questions and discussions are welcome on the [Discussions](https://github.com/aneepct/librdkafka/discussions) forum, and on the [Confluent Community slack](https://launchpass.com/confluentcommunity) #clients channel.
 
 
 # Language bindings #
@@ -189,8 +185,8 @@ Questions and discussions are welcome on the [Discussions](https://github.com/ed
   * Ruby: [rdkafka-ruby](https://github.com/appsignal/rdkafka-ruby)
   * Rust: [rust-rdkafka](https://github.com/fede1024/rust-rdkafka)
   * Tcl: [KafkaTcl](https://github.com/flightaware/kafkatcl)
-  * Shell: [kafkacat](https://github.com/edenhill/kafkacat) - Apache Kafka command line tool
+  * Shell: [kafkacat](https://github.com/aneepct/kafkacat) - Apache Kafka command line tool
   * Swift: [Perfect-Kafka](https://github.com/PerfectlySoft/Perfect-Kafka)
 
 
-See [Powered by librdkafka](https://github.com/edenhill/librdkafka/wiki/Powered-by-librdkafka) for an incomplete list of librdkafka users.
+See [Powered by librdkafka](https://github.com/aneepct/librdkafka/wiki/Powered-by-librdkafka) for an incomplete list of librdkafka users.
